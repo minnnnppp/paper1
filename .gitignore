@@ -1,0 +1,35 @@
+# --- Python Related ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+
+# --- Text Files & Large Files ---
+# Ignore all .txt files (like GloVe embeddings)
+*.txt
+# Exception: Always track the requirements file
+!requirements.txt
+# Explicitly block the heavy GloVe file just in case
+glove.6B.300d.txt
+
+# --- Data & Large Files (Updated) ---
+# Ignore the entire processed data directory (includes .pkl, .h5, etc.)
+data/processed/
+# Ignore bulk raw data files
+data/raw/*.json.gz
+# Exception: Specifically include the sample dataset for others to test
+!data/raw/SampleData.json.gz
+
+# --- Models & Output Artifacts ---
+# Ignore weights and saved model files
+*.h5
+*.keras
+saved_model/
+checkpoints/
+
+# --- IDE & System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

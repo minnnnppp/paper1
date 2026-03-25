@@ -1,0 +1,28 @@
+# Data paths and file names
+data:
+  file_path: "./data/raw/SampleData.json.gz"
+  save_path: "./data/processed/"
+  final_file: "surefar_fused_data.pkl"
+  glove_path: "./glove.6B.300d.txt"
+  dataset_name: "Amazon_Sample"
+
+# Extractive Branch settings
+textrank:
+  ratio: 0.6
+  embedding_dim: 300 # Eu, Ei vector dimension
+
+# Abstractive Branch settings
+bart:
+  model_name: "facebook/bart-base" #
+  max_length: 1024
+
+# Model Architecture and Training Hyperparameters (This was missing!)
+model_params:
+  embedding_dim: 300    # Matches GloVe dimension
+  mlp_hidden_dim: 128   # Dimension for GMU and MLP layers
+  mlp_depth: 3          # Number of MLP layers for rating prediction
+  dropout_rate: 0.5     # Dropout for regularization
+  learning_rate: 0.0003 # Adam optimizer learning rate
+  batch_size: 128       # Training batch size
+  epochs: 100           # Maximum training epochs
+  patience: 5           # Early stopping patience
