@@ -84,8 +84,6 @@ Once the environment and data are ready, execute the following command to start 
 ```
 python main.py
 ```
-<img width="829" height="483" alt="image" src="https://github.com/user-attachments/assets/6ec95b6e-4c8a-4687-93ca-8d2576089b01" />
-
 
 
 ## Model Description
