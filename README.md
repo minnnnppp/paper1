@@ -108,7 +108,7 @@ The fused representation is passed into a neural prediction layer to estimate th
 
 In summary, SuReFAR leverages the complementary strengths of **TextRank** and **BART**, while **attention** and **GMU** enable adaptive fusion of summarized review information for more accurate recommendation.
 
-<img width="1162" height="690" alt="SuReFAR framework" src="https://github.com/user-attachments/assets/cdd1e1cf-b494-4ea9-b686-6e0fe2052eb1" />
+<img width="829" height="483" alt="image" src="https://github.com/user-attachments/assets/d37a9ae3-e136-4a4c-8933-f6096bc2e9f7" />
 
 ## Experimental Results
 
