@@ -42,7 +42,7 @@ If you find this work helpful to your research, please consider citing our paper
 ```bibtex
 @article{
   title={Enhancing Recommendation with Integration of Extractive and Abstractive Summarization},
-  author={Park, Minkyung and Kim, Suji and Li, Xinzhe and Park, Seonu and Kim, Jaekyeong},
+  author={Minkyung Park, Suji Kim, Xinzhe Li, Seonu Park, and Jaekyeong Kim},
   journal={Electronics},
   year={2026}
 }
