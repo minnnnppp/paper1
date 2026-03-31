@@ -13,7 +13,9 @@ The proposed SuReFAR model consists of three main modules:
 * **Summary Fusion Module**: Applies an attention mechanism to extractive and abstractive summary vectors and uses a Gated Multimodal Unit (GMU) to adaptively weight them.
 * **Rating Prediction Module**: Predicts user ratings from the fused representation.
 
-*!(/Users/minky/Desktop/대학원/paper1/framework.png) \n [SuReFAR Framework Architecture]*
+
+<img width="3194" height="1865" alt="framework" src="https://github.com/user-attachments/assets/3e8e0184-185d-4185-98a2-1e508818eb71" />
+*![SuReFAR Framework Architecture]*
 
 ## 3. Datasets
 The model was evaluated on the following open datasets:
