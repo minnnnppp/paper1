@@ -15,7 +15,7 @@ The proposed SuReFAR model consists of three main modules:
 
 
 <img width="3194" height="1865" alt="framework" src="https://github.com/user-attachments/assets/3e8e0184-185d-4185-98a2-1e508818eb71" />
-*![SuReFAR Framework Architecture]*
+[SuReFAR Framework Architecture]
 
 ## 3. Datasets
 The model was evaluated on the following open datasets:
