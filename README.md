@@ -1,6 +1,6 @@
 # SuReFAR: Summarized Reviews Fusion for Adaptive Recommendation
 
-Official repository for the paper: **"Enhancing Recommendation with Integration of Extractive and Abstractive Summarization"**.
+Repository for the paper: **"Enhancing Recommendation with Integration of Extractive and Abstractive Summarization"**.
 
 ## 1. Overview
 To address the limitations of using full review texts that may contain redundant semantics or noise 
